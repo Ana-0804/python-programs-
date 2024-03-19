@@ -1,31 +1,35 @@
-
+#And let's unroll the curtains
 '''
 input("what's your name")
 print("hello, world")
 '''
+#_______________________________________________________________________________________________________________________________________________________________________________________________
 '''
 return value feature in talk
 what will you return if you don't have a feature to hold it ? Presenting you THE VARIABLES *clapclapclappclapclap *heroicentryofvariable
 '''
+                                         
 '''
-name= input("what's your name") #name is the  variable that stores user's input. 
+name= input("what's your name")           #name is the  variable that stores user's input. 
 print("hello,")
-print(name)                     #return value
+print(name)                               #return value
 '''
+#_______________________________________________________________________________________________________________________________________________________________________________________________
 
-#next comes PSEUDO CODE , it'sbasically structuring  of code without actual implementation breaking bigger  tasks into smaller ones.
+
 #Let's prettify the code above. 
+
 '''
 name = input ("what's your name? ")
-print("hello, " + name )   #we can use the '+' operator to concatenate strings</s>
+print("hello, " + name )                  #we can use the '+' operator to concatenate strings</s>
 '''
-
 #Eh heh but there's a better way  to do this using a simple "comma(,)"
 
+'''
 name = input ("what's your name? ")
 print("hello ," , name)
 
-'''
+
 Et voila !! it worked. So how does it make any  difference ?
 So basically comma(,) method uses 2 arguments that is hello  and then whatever comes next which is name. It prints them both together separated by space.
 Whereas when we used concatenation method (+) , it had two arguments, weird i know  . But here , there is only 1 argument  in the sense that as mathematicians 
@@ -35,3 +39,29 @@ is print("Ananya"(i.e the name)) which is all being done dynamically.It is all b
 Hello wiwth the value of variable name and then passing it ultimately to print as the the solo argument.
 
 '''
+#_______________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+#PARAMETERS AND ARGUMENTS
+
+'''
+PARAMETERS : What we can pass in the parantheses and what those i\p are called is Parameters. 
+ARGUMENTS  : When we actually use the function and pass values inside those parantheses , those i\p are called arguments.
+'''
+'''
+#In above examples we saw that output we were receiving was one line after other ,because
+Print automatically assumed that we wanted the cursor to the next line after we pass some argument.
+
+Functions take arguments which influence their behaviour.
+'''
+name = input(" What's your name ?")
+print("hello" , end='')      #end parameter tells python not to go to new line after printing something .
+print(",",name)             #We can also pass multiple parameters separated by comma.
+
+
+#There are two special parameters:
+#1. End - It specifies what should be printed at last before going to new line. By default it is \n (newline).
+#1. End - It tells Python where to put the cursor after printing something.
+#2. Separator - It tells Python what should be printed between different parameters passed separately.By Default it prints nothing.
