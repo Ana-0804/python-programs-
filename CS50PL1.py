@@ -47,7 +47,8 @@ Hello wiwth the value of variable name and then passing it ultimately to print a
 #PARAMETERS AND ARGUMENTS
 
 '''
-PARAMETERS : What we can pass in the parantheses and what those i\p are called is Parameters. 
+PARAMETERS : What we can pass in the parantheses and what those i\p are called is Parameters.  
+These are two types, Named Parameters(sep, end) ; Positional Parameters  (ip1, ip2).
 ARGUMENTS  : When we actually use the function and pass values inside those parantheses , those i\p are called arguments.
 '''
 '''
@@ -56,12 +57,22 @@ Print automatically assumed that we wanted the cursor to the next line after we 
 
 Functions take arguments which influence their behaviour.
 '''
+'''
 name = input(" What's your name ?")
 print("hello" , end='')      #end parameter tells python not to go to new line after printing something .
 print(",",name)             #We can also pass multiple parameters separated by comma.
-
-
+'''
+'''
 #There are two special parameters:
 #1. End - It specifies what should be printed at last before going to new line. By default it is \n (newline).
 #1. End - It tells Python where to put the cursor after printing something.
 #2. Separator - It tells Python what should be printed between different parameters passed separately.By Default it prints nothing.
+'''
+#_______________________________________________________________________________________________________________________________________________________________________________________________
+
+
+'''
+There's yet another way to print the above code decently , and it is called the F-string format'''
+
+name=input("What's your name? ")
+print(f"Hello {name}!")     #Here f before string is used for using variables inside a string using curly braces {}
