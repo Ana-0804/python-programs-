@@ -17,7 +17,7 @@ print(name)                               #return value
 #_______________________________________________________________________________________________________________________________________________________________________________________________
 
 
-#Let's prettify the code above. 
+                                                #Let's prettify the code above. 
 
 '''
 name = input ("what's your name? ")
@@ -44,25 +44,22 @@ Hello wiwth the value of variable name and then passing it ultimately to print a
 
 
 
-#PARAMETERS AND ARGUMENTS
+                                                        #PARAMETERS AND ARGUMENTS
 
 '''
 PARAMETERS : What we can pass in the parantheses and what those i\p are called is Parameters.  
 These are two types, Named Parameters(sep, end) ; Positional Parameters  (ip1, ip2).
 ARGUMENTS  : When we actually use the function and pass values inside those parantheses , those i\p are called arguments.
-'''
-'''
+
 #In above examples we saw that output we were receiving was one line after other ,because
 Print automatically assumed that we wanted the cursor to the next line after we pass some argument.
 
 Functions take arguments which influence their behaviour.
-'''
-'''
+
 name = input(" What's your name ?")
 print("hello" , end='')      #end parameter tells python not to go to new line after printing something .
 print(",",name)             #We can also pass multiple parameters separated by comma.
-'''
-'''
+
 #There are two special parameters:
 #1. End - It specifies what should be printed at last before going to new line. By default it is \n (newline).
 #1. End - It tells Python where to put the cursor after printing something.
@@ -71,18 +68,23 @@ print(",",name)             #We can also pass multiple parameters separated by c
 #_______________________________________________________________________________________________________________________________________________________________________________________________
 
 
-'''
-There's yet another way to print the above code decently , and it is called the F-string format
 
+                                                        #F-string format
+'''
 name=input("What's your name? ")
 print(f"Hello {name}!")     #Here f before string is used for using variables inside a string using curly braces {}
 '''
 #_______________________________________________________________________________________________________________________________________________________________________________________________
     
                                                         #STRING METHODS
-
+'''
 name = input("Enter Your Name : ")
-name = name.strip( )                      #This method removes any leading or trailing spaces from a string.
+name = name.strip( )                     #This method removes any leading or trailing spaces from a string.
 name = name.capitalize( )                #This method converts first character of a string into capital letter.
-name = name.title(  )                       #This method converts first character of each word to Uppercase & remaining characters to Lower
+name = name.title(  )                    #This method converts first character of each word to Uppercase & remaining characters to Lower
 print(f"Hello,{name}")
+'''                                                     
+                                                        #CHAINING STRING METHODS
+
+name = input("Enter Your Name : ").strip().title()     #Here strip() remove all the leading & trailing spaces & title() convert first character of each
+print(f"Hello, {name}")
