@@ -72,7 +72,17 @@ print(",",name)             #We can also pass multiple parameters separated by c
 
 
 '''
-There's yet another way to print the above code decently , and it is called the F-string format'''
+There's yet another way to print the above code decently , and it is called the F-string format
 
 name=input("What's your name? ")
 print(f"Hello {name}!")     #Here f before string is used for using variables inside a string using curly braces {}
+'''
+#_______________________________________________________________________________________________________________________________________________________________________________________________
+    
+                                                        #STRING METHODS
+
+name = input("Enter Your Name : ")
+name = name.strip( )                      #This method removes any leading or trailing spaces from a string.
+name = name.capitalize( )                #This method converts first character of a string into capital letter.
+name = name.title(  )                       #This method converts first character of each word to Uppercase & remaining characters to Lower
+print(f"Hello,{name}")
