@@ -85,6 +85,17 @@ name = name.title(  )                    #This method converts first character o
 print(f"Hello,{name}")
 '''                                                     
                                                         #CHAINING STRING METHODS
-
+'''
 name = input("Enter Your Name : ").strip().title()     #Here strip() remove all the leading & trailing spaces & title() convert first character of each
 print(f"Hello, {name}")
+
+'''
+
+#_______________________________________________________________________________________________________________________________________________________________________________________________
+
+                                                        #SPLITTING INTO TWO SMALLER SUBSTRINGS
+
+name = input( " Enter Your Full Name : " )
+
+first , last =name.split(" ")                #By default split() function splits at white space but it takes an optional separator as itsfirst_name , last_name = name.first_name, last_name = name.first_name, last_name = name.first_name , last_name = name. 
+print(f"hello , {first}")
