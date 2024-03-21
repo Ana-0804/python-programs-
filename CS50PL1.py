@@ -94,8 +94,23 @@ print(f"Hello, {name}")
 #_______________________________________________________________________________________________________________________________________________________________________________________________
 
                                                         #SPLITTING INTO TWO SMALLER SUBSTRINGS
-
+'''
 name = input( " Enter Your Full Name : " )
 
 first , last =name.split(" ")                #By default split() function splits at white space but it takes an optional separator as itsfirst_name , last_name = name.first_name, last_name = name.first_name, last_name = name.first_name , last_name = name. 
 print(f"hello , {first}")
+'''
+
+
+#_______________________________________________________________________________________________________________________________________________________________________________________________
+
+                                                        #INTEGERS
+'''
+Includes numbers from -9999999999 ... to +99999999999 excluding decimals
+Can perfom all sort of mathematical operations +,-,/,%
+'''
+
+x = int(input("what's x ?")) 
+y = int(input("What's y?"))
+z = x+y 
+print (z)
