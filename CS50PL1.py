@@ -120,10 +120,17 @@ print( x+y )
                                                         #FLOATS
 
 '''
-All the decimal values are taken care of under this data type'''
+All the decimal values are taken care of under this data type
 
 x = float(input("what's x ?"))    
 y = float(input("What's y?"))
 z = x+y
 print(f"{z:,}")
+
+'''
+x = float(input("what's x ?"))    
+y = float(input("What's y?"))
+z = x/y
+print(f"{z:.2f}")
+#_______________________________________________________________________________________________________________________________________________________________________________________________
 
