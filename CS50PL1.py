@@ -108,9 +108,22 @@ print(f"hello , {first}")
 '''
 Includes numbers from -9999999999 ... to +99999999999 excluding decimals
 Can perfom all sort of mathematical operations +,-,/,%
+
+
+x = int(input("what's x ?"))    #we can nest various functions
+y = int(input("What's y?"))
+print( x+y )
 '''
 
-x = int(input("what's x ?")) 
-y = int(input("What's y?"))
-z = x+y 
-print (z)
+#_______________________________________________________________________________________________________________________________________________________________________________________________
+                                                        
+                                                        #FLOATS
+
+'''
+All the decimal values are taken care of under this data type'''
+
+x = float(input("what's x ?"))    
+y = float(input("What's y?"))
+z = x+y
+print(f"{z:,}")
+
