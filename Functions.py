@@ -14,6 +14,10 @@ hello(name)
 #This is how we pass values into functions.
 '''
 
+
+'''
+We don’t have to have our function at the start of our program. 
+We can move it down, but we need to tell the compiler that we have a main function and a separate hello function.'''
 def main():
 
     # Output using our own function
