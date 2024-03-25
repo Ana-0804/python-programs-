@@ -134,8 +134,18 @@ z = x/y
 print(f"{z:.2f}")
 '''
 #_______________________________________________________________________________________________________________________________________________________________________________________________
+                                                #RETURN  THE INPUT DATA TYPE
 
                                                     
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))        #Effectively, x is passed to square. Then, the calculation of x * x is returned back to the main function.
 
+
+def square(n):
+    return n * n
+
+
+main()
 
 
