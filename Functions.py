@@ -18,7 +18,7 @@ hello(name)
 '''
 We don’t have to have our function at the start of our program. 
 We can move it down, but we need to tell the compiler that we have a main function and a separate hello function.'''
-def main():
+'''def main():
 
     # Output using our own function
     name = input("What's your name? ")
@@ -31,6 +31,21 @@ def main():
 # Create our own function
 def hello(to="world"):
     print("hello,", to)
+
+
+main()
+'''
+                                                #RETURN  THE INPUT DATA TYPE
+
+                                                    
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))        #Effectively, x is passed to square. Then, the calculation of x * x is returned back to the main function.
+    
+
+
+def square(n):
+    return n * n
 
 
 main()
