@@ -1,5 +1,4 @@
-1.  Problem faced while pushing code to git
-
+1.  Problem 
          [! [rejected]        main -> main (fetch first)
         error: failed to push some refs to 'https://github.com/Ana-0804/python-programs-.git'
         hint: Updates were rejected because the remote contains work that you do
