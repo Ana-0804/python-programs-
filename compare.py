@@ -22,10 +22,19 @@ else:
     '''
 
                                                 #NOTEQUAL
-
+'''
 x = int(input("what's x?"))
 y = int(input("what's y? "))
 if x!=y :   #not equal to '!=' operator
     print("Values are not equal")
 else:
     print("Values are equal")
+    '''
+                                                #EQUALEQUAL
+
+x = int(input("what's x?"))
+y = int(input("what's y? "))
+if x==y :   #EQUAL equal to '==' operator
+    print("Values are  equal")
+else:
+    print("Values are not equal")
