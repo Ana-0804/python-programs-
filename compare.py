@@ -11,7 +11,7 @@ elif x==y:
     '''
 
                                                 #OR
-
+'''
 x = int(input("what's x?"))
 y = int(input("what's y? "))
 
@@ -19,3 +19,13 @@ if x>y or y>x:  #this means if either of the conditions in () is true then it wi
     print ("values are not equal")
 else:
     print("both are equal")
+    '''
+
+                                                #NOTEQUAL
+
+x = int(input("what's x?"))
+y = int(input("what's y? "))
+if x!=y :   #not equal to '!=' operator
+    print("Values are not equal")
+else:
+    print("Values are equal")
