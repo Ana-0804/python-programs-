@@ -12,7 +12,7 @@ def main():
             
 #A function named 'is_even' is defined below which checks whether a number is even or not. 
 def is_even(n):
-    return True if n % 2 == 0 else  False
+    return True if n % 2 == 0 else  False #return statement in our code is almost like a sentence in English.
 
 
 main()
