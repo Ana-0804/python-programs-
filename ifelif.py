@@ -1,12 +1,8 @@
 name = input("What's your name ?")
 
-if name == "Harry":
-    print("Grryfindor")
-elif name =="Hermoine":
-    print("Grryfindor")
-elif name == "Ron":
+if name == "Harry" or name == "Hermoine" or name =="Ron":
     print("Grryfindor")
 elif name == "Draco":
-    print("Slytherine")
+    print ("Slytherin")
 else:
-    print("You are not in the list.")
+    print(f"{name.title()} is in GRYNDOR!")
